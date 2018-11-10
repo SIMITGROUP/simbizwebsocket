@@ -67,9 +67,11 @@ class Events
             Gateway::sendToClient($client_id, json_encode(['status'=>'OK','action'=>$action,'msg'=>$txt,'actiontype'=>$actiontype]));
           break;
           case 'printthermalprinter':
-            
+            $thermalprinterip=$result['thermalprinterip'];
+            $thermalprinterport=$result['thermalprinterport'];
+            $txt=$result['txt'];
             $printer=new UnixPrintThermal();
-            $printer->print();
+            $printer->print($thermalprinterip,$thermalprinterport,$txt);
           break;
           default:
             Gateway::sendToClient($client_id, json_encode(['status'=>'Failed','msg'=>'Unrecognise "action='.$action.'".']));
