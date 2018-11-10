@@ -56,6 +56,7 @@ class UnixPrintPDF
 			shell_exec($cmd);	
 		}
 		unlink($filename);
+		return $cmd;
 		
 	}
 	private function downloadfile($url='')
