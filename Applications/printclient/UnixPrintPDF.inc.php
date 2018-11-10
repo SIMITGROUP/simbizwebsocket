@@ -28,7 +28,7 @@ class UnixPrintPDF
 		return $printerlist;
 
 	}
-	private function sendPrintJob($filename,$printername='',$options='')
+	private function sendPrintJob($filename,$printername='',$options='',$simulate=0)
 	{
 
 		echo "\nPrint $filename ";		
@@ -51,7 +51,12 @@ class UnixPrintPDF
 		$cmd="lp $options $printername $filename";
 		echo "\n".$cmd;
 
-		shell_exec($cmd);
+		if($simulate==0)
+		{
+			shell_exec($cmd);	
+		}
+		unlink($filename);
+		
 	}
 	private function downloadfile($url='')
 	{

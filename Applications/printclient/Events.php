@@ -61,9 +61,10 @@ class Events
             $pdffileurl=$result['pdffileurl'];
             $printername=$result['printername'];
             $options=$result['options'];
+            $simulate=$result['simulate'];
             $printer=new UnixPrintPDF();
-            $printer->print($pdffileurl,$printername,$options);
-            Gateway::sendToClient($client_id, json_encode(['status'=>'OK','action'=>$action,'msg'=>'printed']));
+            $printer->print($pdffileurl,$printername,$options,$simulate);
+            Gateway::sendToClient($client_id, json_encode(['status'=>'OK','action'=>$action,'msg'=>'printed','simulate'=>$simulate]));
           break;
           case 'printthermalprinter':
             
