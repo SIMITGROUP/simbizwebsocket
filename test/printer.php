@@ -90,7 +90,7 @@
   </script>
 
   <h2>WebSocket Test</h2>
-  <label>Socket <input name="socketval" id="socketval" value="ws://127.0.0.1:9999" ></label>
+  <label>Socket <input name="socketval" id="socketval" value="ws://simitzone.tplinkdns.com:9999" ></label>
   <button onclick="testWebSocket()">Connect</button>
   <button onclick="print('item.pdf')">1 page</button>
   <button onclick="print('tmpitem_2.pdf')">2 page</button>
