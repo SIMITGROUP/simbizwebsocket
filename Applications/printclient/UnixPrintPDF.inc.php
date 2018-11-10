@@ -48,6 +48,7 @@ class UnixPrintPDF
 		// 	$options=' -o '.$options;
 		// }
 
+		echo "\n simulate:$simulate\n";
 		$cmd="lp $options $printername $filename";
 		echo "\n".$cmd;
 
