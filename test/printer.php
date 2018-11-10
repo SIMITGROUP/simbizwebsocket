@@ -35,6 +35,7 @@
   function print(filename)
   {
   	var printername=document.getElementById('printername').value;
+  	var simulate=document.getElementById('simulate').value;
   	var pdfurl='https://app.simitgroup.com/'+filename;
   	var data=
     	{
@@ -42,7 +43,7 @@
     		pdffileurl: pdfurl,
     		options: '-o media=Custom.80x60mm -o orientation-requested=6', //option under lp -o , example: media=Letter
     		printername:printername,
-    		simulate:0
+    		simulate:simulate
     	};
     var str=JSON.stringify(data);
     writeToScreen("Print:"+str);
