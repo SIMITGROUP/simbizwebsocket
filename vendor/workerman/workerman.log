@@ -1,0 +1,1426 @@
+2018-11-09 18:01:06 pid:86210 Workerman[start.php] start in DEBUG mode
+2018-11-09 18:01:09 pid:86210 Workerman[start.php] stopping ...
+2018-11-09 18:01:09 pid:86210 Workerman[start.php] has been stopped
+2018-11-10 07:11:25 pid:89604 Workerman[start.php] start in DEBUG mode
+2018-11-10 07:14:46 pid:89604 Workerman[start.php] stopping ...
+2018-11-10 07:14:46 pid:89604 Workerman[start.php] has been stopped
+2018-11-10 07:14:46 pid:89774 Workerman[start.php] start in DEBUG mode
+2018-11-10 07:21:07 pid:89774 Workerman[start.php] stopping ...
+2018-11-10 07:21:07 pid:89774 Workerman[start.php] has been stopped
+2018-11-10 07:21:07 pid:90052 Workerman[start.php] start in DEBUG mode
+2018-11-10 07:22:13 pid:90052 Workerman[start.php] stopping ...
+2018-11-10 07:22:13 pid:90052 Workerman[start.php] has been stopped
+2018-11-10 07:22:14 pid:90096 Workerman[start.php] start in DEBUG mode
+2018-11-10 07:22:14 pid:90097 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:40
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(507): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2018-11-10 07:22:14 pid:90098 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:40
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(507): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2018-11-10 07:22:15 pid:90097 Worker[90097] process terminated
+2018-11-10 07:22:15 pid:90098 Worker[90098] process terminated
+2018-11-10 07:22:15 pid:90096 worker[local_client:90098] exit with status 64000
+2018-11-10 07:22:15 pid:90096 worker[local_client:90097] exit with status 64000
+2018-11-10 07:22:15 pid:90106 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:40
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 07:22:15 pid:90105 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:40
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 07:22:16 pid:90105 Worker[90105] process terminated
+2018-11-10 07:22:16 pid:90106 Worker[90106] process terminated
+2018-11-10 07:22:16 pid:90096 worker[local_client:90105] exit with status 64000
+2018-11-10 07:22:16 pid:90096 worker[local_client:90106] exit with status 64000
+2018-11-10 07:22:16 pid:90108 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:40
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 07:22:16 pid:90109 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:40
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 07:22:17 pid:90108 Worker[90108] process terminated
+2018-11-10 07:22:17 pid:90109 Worker[90109] process terminated
+2018-11-10 07:22:17 pid:90096 worker[local_client:90108] exit with status 64000
+2018-11-10 07:22:17 pid:90096 worker[local_client:90109] exit with status 64000
+2018-11-10 07:22:17 pid:90111 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:40
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 07:22:17 pid:90112 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:40
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 07:22:18 pid:90111 Worker[90111] process terminated
+2018-11-10 07:22:18 pid:90112 Worker[90112] process terminated
+2018-11-10 07:22:18 pid:90096 worker[local_client:90112] exit with status 64000
+2018-11-10 07:22:18 pid:90096 worker[local_client:90111] exit with status 64000
+2018-11-10 07:22:18 pid:90114 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:40
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 07:22:18 pid:90113 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:40
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 07:22:19 pid:90114 Worker[90114] process terminated
+2018-11-10 07:22:19 pid:90113 Worker[90113] process terminated
+2018-11-10 07:22:19 pid:90096 worker[local_client:90114] exit with status 64000
+2018-11-10 07:22:19 pid:90096 worker[local_client:90113] exit with status 64000
+2018-11-10 07:22:19 pid:90115 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:40
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 07:22:19 pid:90116 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:40
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 07:22:20 pid:90116 Worker[90116] process terminated
+2018-11-10 07:22:20 pid:90115 Worker[90115] process terminated
+2018-11-10 07:22:20 pid:90096 worker[local_client:90116] exit with status 64000
+2018-11-10 07:22:20 pid:90096 worker[local_client:90115] exit with status 64000
+2018-11-10 07:22:20 pid:90117 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:40
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 07:22:20 pid:90118 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:40
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 07:22:21 pid:90117 Worker[90117] process terminated
+2018-11-10 07:22:21 pid:90118 Worker[90118] process terminated
+2018-11-10 07:22:21 pid:90096 worker[local_client:90118] exit with status 64000
+2018-11-10 07:22:21 pid:90096 worker[local_client:90117] exit with status 64000
+2018-11-10 07:22:24 pid:90103 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 07:22:24 pid:90103 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 07:22:25 pid:90103 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 07:22:25 pid:90103 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 07:22:26 pid:90103 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 07:22:26 pid:90103 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 07:22:27 pid:90103 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 07:22:27 pid:90103 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 07:22:28 pid:90103 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 07:22:28 pid:90103 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 07:22:29 pid:90103 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 07:22:29 pid:90103 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 07:22:30 pid:90103 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 07:22:30 pid:90103 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 07:23:43 pid:90096 Workerman[start.php] stopping ...
+2018-11-10 07:23:43 pid:90096 Workerman[start.php] has been stopped
+2018-11-10 07:23:44 pid:90159 Workerman[start.php] start in DEBUG mode
+2018-11-10 07:24:06 pid:90159 Workerman[start.php] stopping ...
+2018-11-10 07:24:06 pid:90159 Workerman[start.php] has been stopped
+2018-11-10 07:24:06 pid:90199 Workerman[start.php] start in DEBUG mode
+2018-11-10 07:25:45 pid:90199 Workerman[start.php] stopping ...
+2018-11-10 07:25:45 pid:90199 Workerman[start.php] has been stopped
+2018-11-10 07:25:45 pid:90270 Workerman[start.php] start in DEBUG mode
+2018-11-10 07:26:47 pid:90270 Workerman[start.php] stopping ...
+2018-11-10 07:26:47 pid:90270 Workerman[start.php] has been stopped
+2018-11-10 07:26:48 pid:90318 Workerman[start.php] start in DEBUG mode
+2018-11-10 07:27:44 pid:90318 Workerman[start.php] stopping ...
+2018-11-10 07:27:44 pid:90318 Workerman[start.php] has been stopped
+2018-11-10 07:27:45 pid:90365 Workerman[start.php] start in DEBUG mode
+2018-11-10 07:28:05 pid:90365 Workerman[start.php] stopping ...
+2018-11-10 07:28:05 pid:90365 Workerman[start.php] has been stopped
+2018-11-10 07:28:11 pid:90398 Workerman[start.php] start in DEBUG mode
+2018-11-10 07:29:54 pid:90398 Workerman[start.php] stopping ...
+2018-11-10 07:29:54 pid:90398 Workerman[start.php] has been stopped
+2018-11-10 07:29:55 pid:90467 Workerman[start.php] start in DEBUG mode
+2018-11-10 07:31:27 pid:90467 Workerman[start.php] stopping ...
+2018-11-10 07:31:27 pid:90467 Workerman[start.php] has been stopped
+2018-11-10 07:31:28 pid:90539 Workerman[start.php] start in DEBUG mode
+2018-11-10 07:37:41 pid:90539 Workerman[start.php] stopping ...
+2018-11-10 07:37:41 pid:90539 Workerman[start.php] has been stopped
+2018-11-10 07:37:42 pid:90844 Workerman[start.php] start in DEBUG mode
+2018-11-10 07:37:43 pid:90845 Error: Cannot use object of type stdClass as array in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Events::onMessage('000000000b55000...', '{"data":"WebSoc...')
+#1 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '000000000b55000...', '{"data":"WebSoc...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Connection/TcpConnection.php(650): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #44)
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Events/Select.php(295): call_user_func_array(Array, Array)
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2322): Workerman\Events\Select->loop()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(507): Workerman\Worker::forkWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 07:37:43 pid:90845 Worker[90845] process terminated
+2018-11-10 07:37:43 pid:90844 worker[local_client:90845] exit with status 64000
+2018-11-10 07:40:11 pid:90844 Workerman[start.php] stopping ...
+2018-11-10 07:40:11 pid:90844 Workerman[start.php] has been stopped
+2018-11-10 07:40:12 pid:90967 Workerman[start.php] start in DEBUG mode
+2018-11-10 07:53:51 pid:90967 Workerman[start.php] stopping ...
+2018-11-10 07:53:51 pid:90967 Workerman[start.php] has been stopped
+2018-11-10 07:53:52 pid:91524 Workerman[start.php] start in DEBUG mode
+2018-11-10 07:53:57 pid:91524 Workerman[start.php] stopping ...
+2018-11-10 07:53:57 pid:91524 Workerman[start.php] has been stopped
+2018-11-10 07:53:58 pid:91537 Workerman[start.php] start in DEBUG mode
+2018-11-10 07:54:44 pid:91537 Workerman[start.php] stopping ...
+2018-11-10 07:54:44 pid:91537 Workerman[start.php] has been stopped
+2018-11-10 07:54:55 pid:91587 Workerman[start.php] start in DEBUG mode
+2018-11-10 07:59:18 pid:91587 Workerman[start.php] stopping ...
+2018-11-10 07:59:18 pid:91587 Workerman[start.php] has been stopped
+2018-11-10 07:59:18 pid:91794 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:00:43 pid:91794 Workerman[start.php] stopping ...
+2018-11-10 08:00:43 pid:91794 Workerman[start.php] has been stopped
+2018-11-10 08:00:43 pid:91870 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:01:49 pid:91870 Workerman[start.php] stopping ...
+2018-11-10 08:01:49 pid:91870 Workerman[start.php] has been stopped
+2018-11-10 08:01:49 pid:91918 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:01:49 pid:91920 ParseError: syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:16
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(507): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2018-11-10 08:01:49 pid:91919 ParseError: syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:16
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(507): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2018-11-10 08:01:50 pid:91920 Worker[91920] process terminated
+2018-11-10 08:01:50 pid:91919 Worker[91919] process terminated
+2018-11-10 08:01:50 pid:91918 worker[local_client:91919] exit with status 64000
+2018-11-10 08:01:51 pid:91918 worker[local_client:91920] exit with status 64000
+2018-11-10 08:01:51 pid:91926 ParseError: syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:16
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:01:51 pid:91927 ParseError: syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:16
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:01:52 pid:91926 Worker[91926] process terminated
+2018-11-10 08:01:52 pid:91927 Worker[91927] process terminated
+2018-11-10 08:01:52 pid:91918 worker[local_client:91926] exit with status 64000
+2018-11-10 08:01:52 pid:91918 worker[local_client:91927] exit with status 64000
+2018-11-10 08:01:52 pid:91928 ParseError: syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:16
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:01:52 pid:91929 ParseError: syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:16
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:01:52 pid:91929 Worker[91929] process terminated
+2018-11-10 08:01:52 pid:91918 Workerman[start.php] stopping ...
+2018-11-10 08:01:52 pid:91928 Worker[91928] process terminated
+2018-11-10 08:01:52 pid:91918 worker[local_client:91929] exit with status 64000
+2018-11-10 08:01:52 pid:91918 worker[local_client:91928] exit with status 64000
+2018-11-10 08:01:52 pid:91918 Workerman[start.php] has been stopped
+2018-11-10 08:02:01 pid:91952 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:02:05 pid:91952 Workerman[start.php] stopping ...
+2018-11-10 08:02:05 pid:91952 Workerman[start.php] has been stopped
+2018-11-10 08:02:37 pid:91981 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:02:37 pid:91982 ParseError: syntax error, unexpected '}' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/UnixPrintPDF.inc.php:18
+Stack trace:
+#0 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Autoloader.php(60): require_once()
+#1 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#2 [internal function]: spl_autoload_call('Events')
+#3 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#4 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(507): Workerman\Worker::forkWorkers()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#12 {main}
+2018-11-10 08:02:37 pid:91983 ParseError: syntax error, unexpected '}' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/UnixPrintPDF.inc.php:18
+Stack trace:
+#0 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Autoloader.php(60): require_once()
+#1 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#2 [internal function]: spl_autoload_call('Events')
+#3 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#4 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(507): Workerman\Worker::forkWorkers()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#12 {main}
+2018-11-10 08:02:38 pid:91983 Worker[91983] process terminated
+2018-11-10 08:02:38 pid:91982 Worker[91982] process terminated
+2018-11-10 08:02:39 pid:91981 worker[local_client:91983] exit with status 64000
+2018-11-10 08:02:39 pid:91981 worker[local_client:91982] exit with status 64000
+2018-11-10 08:02:39 pid:91989 ParseError: syntax error, unexpected '}' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/UnixPrintPDF.inc.php:18
+Stack trace:
+#0 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Autoloader.php(60): require_once()
+#1 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#2 [internal function]: spl_autoload_call('Events')
+#3 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#4 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#13 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#14 {main}
+2018-11-10 08:02:39 pid:91990 ParseError: syntax error, unexpected '}' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/UnixPrintPDF.inc.php:18
+Stack trace:
+#0 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Autoloader.php(60): require_once()
+#1 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#2 [internal function]: spl_autoload_call('Events')
+#3 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#4 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#13 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#14 {main}
+2018-11-10 08:02:39 pid:91990 Worker[91990] process terminated
+2018-11-10 08:02:39 pid:91989 Worker[91989] process terminated
+2018-11-10 08:02:39 pid:91981 Workerman[start.php] stopping ...
+2018-11-10 08:02:39 pid:91981 worker[local_client:91990] exit with status 64000
+2018-11-10 08:02:41 pid:91981 worker[local_client:91989] exit with status 9
+2018-11-10 08:02:41 pid:91981 Workerman[start.php] has been stopped
+2018-11-10 08:02:50 pid:91997 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:02:52 pid:91997 Workerman[start.php] stopping ...
+2018-11-10 08:02:52 pid:91997 Workerman[start.php] has been stopped
+2018-11-10 08:03:02 pid:92024 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:03:06 pid:92024 Workerman[start.php] stopping ...
+2018-11-10 08:03:06 pid:92024 Workerman[start.php] has been stopped
+2018-11-10 08:03:23 pid:92043 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:03:23 pid:92044 Error: Undefined constant 'UnixPrintPDF' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/UnixPrintPDF.inc.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php(14): include()
+#1 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Autoloader.php(60): require_once('/Applications/M...')
+#2 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#3 [internal function]: spl_autoload_call('Events')
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(507): Workerman\Worker::forkWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:03:23 pid:92045 Error: Undefined constant 'UnixPrintPDF' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/UnixPrintPDF.inc.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php(14): include()
+#1 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Autoloader.php(60): require_once('/Applications/M...')
+#2 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#3 [internal function]: spl_autoload_call('Events')
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(507): Workerman\Worker::forkWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:03:24 pid:92044 Worker[92044] process terminated
+2018-11-10 08:03:24 pid:92045 Worker[92045] process terminated
+2018-11-10 08:03:24 pid:92043 worker[local_client:92045] exit with status 64000
+2018-11-10 08:03:24 pid:92043 worker[local_client:92044] exit with status 64000
+2018-11-10 08:03:24 pid:92052 Error: Undefined constant 'UnixPrintPDF' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/UnixPrintPDF.inc.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php(14): include()
+#1 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Autoloader.php(60): require_once('/Applications/M...')
+#2 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#3 [internal function]: spl_autoload_call('Events')
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#13 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#14 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#15 {main}
+2018-11-10 08:03:24 pid:92051 Error: Undefined constant 'UnixPrintPDF' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/UnixPrintPDF.inc.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php(14): include()
+#1 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Autoloader.php(60): require_once('/Applications/M...')
+#2 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#3 [internal function]: spl_autoload_call('Events')
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#13 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#14 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#15 {main}
+2018-11-10 08:03:25 pid:92051 Worker[92051] process terminated
+2018-11-10 08:03:25 pid:92052 Worker[92052] process terminated
+2018-11-10 08:03:25 pid:92043 worker[local_client:92052] exit with status 64000
+2018-11-10 08:03:25 pid:92043 worker[local_client:92051] exit with status 64000
+2018-11-10 08:03:25 pid:92053 Error: Undefined constant 'UnixPrintPDF' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/UnixPrintPDF.inc.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php(14): include()
+#1 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Autoloader.php(60): require_once('/Applications/M...')
+#2 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#3 [internal function]: spl_autoload_call('Events')
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#13 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#14 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#15 {main}
+2018-11-10 08:03:25 pid:92054 Error: Undefined constant 'UnixPrintPDF' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/UnixPrintPDF.inc.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php(14): include()
+#1 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Autoloader.php(60): require_once('/Applications/M...')
+#2 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#3 [internal function]: spl_autoload_call('Events')
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#13 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#14 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#15 {main}
+2018-11-10 08:03:26 pid:92053 Worker[92053] process terminated
+2018-11-10 08:03:26 pid:92054 Worker[92054] process terminated
+2018-11-10 08:03:26 pid:92043 worker[local_client:92054] exit with status 64000
+2018-11-10 08:03:26 pid:92043 worker[local_client:92053] exit with status 64000
+2018-11-10 08:03:26 pid:92055 Error: Undefined constant 'UnixPrintPDF' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/UnixPrintPDF.inc.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php(14): include()
+#1 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Autoloader.php(60): require_once('/Applications/M...')
+#2 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#3 [internal function]: spl_autoload_call('Events')
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#13 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#14 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#15 {main}
+2018-11-10 08:03:26 pid:92056 Error: Undefined constant 'UnixPrintPDF' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/UnixPrintPDF.inc.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php(14): include()
+#1 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Autoloader.php(60): require_once('/Applications/M...')
+#2 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#3 [internal function]: spl_autoload_call('Events')
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#13 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#14 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#15 {main}
+2018-11-10 08:03:27 pid:92056 Worker[92056] process terminated
+2018-11-10 08:03:27 pid:92055 Worker[92055] process terminated
+2018-11-10 08:03:27 pid:92043 worker[local_client:92056] exit with status 64000
+2018-11-10 08:03:27 pid:92043 worker[local_client:92055] exit with status 64000
+2018-11-10 08:03:27 pid:92057 Error: Undefined constant 'UnixPrintPDF' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/UnixPrintPDF.inc.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php(14): include()
+#1 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Autoloader.php(60): require_once('/Applications/M...')
+#2 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#3 [internal function]: spl_autoload_call('Events')
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#13 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#14 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#15 {main}
+2018-11-10 08:03:27 pid:92058 Error: Undefined constant 'UnixPrintPDF' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/UnixPrintPDF.inc.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php(14): include()
+#1 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Autoloader.php(60): require_once('/Applications/M...')
+#2 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#3 [internal function]: spl_autoload_call('Events')
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#13 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#14 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#15 {main}
+2018-11-10 08:03:28 pid:92057 Worker[92057] process terminated
+2018-11-10 08:03:28 pid:92058 Worker[92058] process terminated
+2018-11-10 08:03:28 pid:92043 worker[local_client:92058] exit with status 64000
+2018-11-10 08:03:28 pid:92043 worker[local_client:92057] exit with status 64000
+2018-11-10 08:03:28 pid:92060 Error: Undefined constant 'UnixPrintPDF' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/UnixPrintPDF.inc.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php(14): include()
+#1 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Autoloader.php(60): require_once('/Applications/M...')
+#2 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#3 [internal function]: spl_autoload_call('Events')
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#13 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#14 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#15 {main}
+2018-11-10 08:03:28 pid:92059 Error: Undefined constant 'UnixPrintPDF' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/UnixPrintPDF.inc.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php(14): include()
+#1 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Autoloader.php(60): require_once('/Applications/M...')
+#2 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#3 [internal function]: spl_autoload_call('Events')
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#13 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#14 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#15 {main}
+2018-11-10 08:03:29 pid:92059 Worker[92059] process terminated
+2018-11-10 08:03:29 pid:92060 Worker[92060] process terminated
+2018-11-10 08:03:29 pid:92043 worker[local_client:92060] exit with status 64000
+2018-11-10 08:03:29 pid:92043 worker[local_client:92059] exit with status 64000
+2018-11-10 08:03:29 pid:92062 Error: Undefined constant 'UnixPrintPDF' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/UnixPrintPDF.inc.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php(14): include()
+#1 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Autoloader.php(60): require_once('/Applications/M...')
+#2 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#3 [internal function]: spl_autoload_call('Events')
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#13 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#14 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#15 {main}
+2018-11-10 08:03:29 pid:92063 Error: Undefined constant 'UnixPrintPDF' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/UnixPrintPDF.inc.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php(14): include()
+#1 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Autoloader.php(60): require_once('/Applications/M...')
+#2 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#3 [internal function]: spl_autoload_call('Events')
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#13 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#14 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#15 {main}
+2018-11-10 08:03:29 pid:92062 Worker[92062] process terminated
+2018-11-10 08:03:29 pid:92043 Workerman[start.php] stopping ...
+2018-11-10 08:03:29 pid:92063 Worker[92063] process terminated
+2018-11-10 08:03:31 pid:92043 worker[local_client:92063] exit with status 9
+2018-11-10 08:03:31 pid:92043 worker[local_client:92062] exit with status 9
+2018-11-10 08:03:31 pid:92043 Workerman[start.php] has been stopped
+2018-11-10 08:04:54 pid:92171 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:06:00 pid:92171 Workerman[start.php] stopping ...
+2018-11-10 08:06:00 pid:92171 Workerman[start.php] has been stopped
+2018-11-10 08:06:01 pid:92346 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:06:25 pid:92346 Workerman[start.php] stopping ...
+2018-11-10 08:06:25 pid:92346 Workerman[start.php] has been stopped
+2018-11-10 08:06:25 pid:92375 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:06:26 pid:92376 Error: Call to undefined function UnixPrintPDF() in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:56
+Stack trace:
+#0 [internal function]: Events::onMessage('000000000b56000...', '{"data":"WebSoc...')
+#1 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '000000000b56000...', '{"data":"WebSoc...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Connection/TcpConnection.php(650): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #47)
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Events/Select.php(295): call_user_func_array(Array, Array)
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2322): Workerman\Events\Select->loop()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(507): Workerman\Worker::forkWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:06:26 pid:92376 Worker[92376] process terminated
+2018-11-10 08:06:26 pid:92375 worker[local_client:92376] exit with status 64000
+2018-11-10 08:06:47 pid:92375 Workerman[start.php] stopping ...
+2018-11-10 08:06:47 pid:92375 Workerman[start.php] has been stopped
+2018-11-10 08:06:47 pid:92392 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:08:02 pid:92392 Workerman[start.php] stopping ...
+2018-11-10 08:08:02 pid:92392 Workerman[start.php] has been stopped
+2018-11-10 08:08:03 pid:92475 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:13:15 pid:92475 Workerman[start.php] stopping ...
+2018-11-10 08:13:15 pid:92475 Workerman[start.php] has been stopped
+2018-11-10 08:13:16 pid:92735 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:15:36 pid:92735 Workerman[start.php] stopping ...
+2018-11-10 08:15:36 pid:92735 Workerman[start.php] has been stopped
+2018-11-10 08:15:36 pid:92831 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:15:47 pid:92831 Workerman[start.php] stopping ...
+2018-11-10 08:15:49 pid:92831 Workerman[start.php] has been stopped
+2018-11-10 08:17:23 pid:92919 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:17:35 pid:92919 Workerman[start.php] stopping ...
+2018-11-10 08:17:35 pid:92919 Workerman[start.php] has been stopped
+2018-11-10 08:17:37 pid:92940 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:18:07 pid:92940 Workerman[start.php] stopping ...
+2018-11-10 08:18:07 pid:92940 Workerman[start.php] has been stopped
+2018-11-10 08:18:12 pid:92980 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:19:45 pid:92980 Workerman[start.php] stopping ...
+2018-11-10 08:19:45 pid:92980 Workerman[start.php] has been stopped
+2018-11-10 08:19:46 pid:93082 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:21:44 pid:93082 Workerman[start.php] stopping ...
+2018-11-10 08:21:44 pid:93082 Workerman[start.php] has been stopped
+2018-11-10 08:21:44 pid:93180 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:22:28 pid:93180 Workerman[start.php] stopping ...
+2018-11-10 08:22:28 pid:93180 Workerman[start.php] has been stopped
+2018-11-10 08:22:29 pid:93214 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:26:15 pid:93214 Workerman[start.php] stopping ...
+2018-11-10 08:26:17 pid:93214 worker[local_client:93215] exit with status 9
+2018-11-10 08:26:17 pid:93214 Workerman[start.php] has been stopped
+2018-11-10 08:26:17 pid:93496 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:26:17 pid:93498 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(507): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2018-11-10 08:26:17 pid:93499 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(507): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2018-11-10 08:26:18 pid:93498 Worker[93498] process terminated
+2018-11-10 08:26:18 pid:93499 Worker[93499] process terminated
+2018-11-10 08:26:18 pid:93496 worker[local_client:93499] exit with status 64000
+2018-11-10 08:26:18 pid:93496 worker[local_client:93498] exit with status 64000
+2018-11-10 08:26:18 pid:93505 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:18 pid:93506 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:19 pid:93506 Worker[93506] process terminated
+2018-11-10 08:26:19 pid:93505 Worker[93505] process terminated
+2018-11-10 08:26:19 pid:93496 worker[local_client:93506] exit with status 64000
+2018-11-10 08:26:19 pid:93496 worker[local_client:93505] exit with status 64000
+2018-11-10 08:26:19 pid:93508 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:19 pid:93507 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:20 pid:93507 Worker[93507] process terminated
+2018-11-10 08:26:20 pid:93508 Worker[93508] process terminated
+2018-11-10 08:26:20 pid:93496 worker[local_client:93508] exit with status 64000
+2018-11-10 08:26:20 pid:93496 worker[local_client:93507] exit with status 64000
+2018-11-10 08:26:20 pid:93510 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:20 pid:93511 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:21 pid:93511 Worker[93511] process terminated
+2018-11-10 08:26:21 pid:93510 Worker[93510] process terminated
+2018-11-10 08:26:21 pid:93496 worker[local_client:93511] exit with status 64000
+2018-11-10 08:26:21 pid:93496 worker[local_client:93510] exit with status 64000
+2018-11-10 08:26:21 pid:93512 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:21 pid:93513 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:22 pid:93512 Worker[93512] process terminated
+2018-11-10 08:26:22 pid:93513 Worker[93513] process terminated
+2018-11-10 08:26:22 pid:93496 worker[local_client:93513] exit with status 64000
+2018-11-10 08:26:22 pid:93496 worker[local_client:93512] exit with status 64000
+2018-11-10 08:26:22 pid:93515 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:22 pid:93514 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:23 pid:93514 Worker[93514] process terminated
+2018-11-10 08:26:23 pid:93515 Worker[93515] process terminated
+2018-11-10 08:26:23 pid:93496 worker[local_client:93514] exit with status 64000
+2018-11-10 08:26:23 pid:93496 worker[local_client:93515] exit with status 64000
+2018-11-10 08:26:23 pid:93518 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:23 pid:93517 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:24 pid:93518 Worker[93518] process terminated
+2018-11-10 08:26:24 pid:93517 Worker[93517] process terminated
+2018-11-10 08:26:24 pid:93496 worker[local_client:93518] exit with status 64000
+2018-11-10 08:26:24 pid:93496 worker[local_client:93517] exit with status 64000
+2018-11-10 08:26:24 pid:93521 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:24 pid:93522 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:25 pid:93521 Worker[93521] process terminated
+2018-11-10 08:26:25 pid:93522 Worker[93522] process terminated
+2018-11-10 08:26:25 pid:93496 worker[local_client:93522] exit with status 64000
+2018-11-10 08:26:25 pid:93496 worker[local_client:93521] exit with status 64000
+2018-11-10 08:26:25 pid:93524 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:25 pid:93525 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:26 pid:93524 Worker[93524] process terminated
+2018-11-10 08:26:26 pid:93525 Worker[93525] process terminated
+2018-11-10 08:26:26 pid:93496 worker[local_client:93525] exit with status 64000
+2018-11-10 08:26:26 pid:93496 worker[local_client:93524] exit with status 64000
+2018-11-10 08:26:26 pid:93527 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:26 pid:93526 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:27 pid:93504 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 08:26:27 pid:93504 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 08:26:27 pid:93526 Worker[93526] process terminated
+2018-11-10 08:26:27 pid:93527 Worker[93527] process terminated
+2018-11-10 08:26:27 pid:93496 worker[local_client:93527] exit with status 64000
+2018-11-10 08:26:27 pid:93496 worker[local_client:93526] exit with status 64000
+2018-11-10 08:26:27 pid:93530 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:27 pid:93531 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:28 pid:93504 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 08:26:28 pid:93504 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 08:26:28 pid:93530 Worker[93530] process terminated
+2018-11-10 08:26:28 pid:93531 Worker[93531] process terminated
+2018-11-10 08:26:28 pid:93496 worker[local_client:93530] exit with status 64000
+2018-11-10 08:26:28 pid:93496 worker[local_client:93531] exit with status 64000
+2018-11-10 08:26:28 pid:93533 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:28 pid:93532 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:29 pid:93504 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 08:26:29 pid:93504 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 08:26:29 pid:93532 Worker[93532] process terminated
+2018-11-10 08:26:29 pid:93533 Worker[93533] process terminated
+2018-11-10 08:26:29 pid:93496 worker[local_client:93533] exit with status 64000
+2018-11-10 08:26:29 pid:93496 worker[local_client:93532] exit with status 64000
+2018-11-10 08:26:29 pid:93534 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:29 pid:93535 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:30 pid:93504 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 08:26:30 pid:93504 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 08:26:30 pid:93535 Worker[93535] process terminated
+2018-11-10 08:26:30 pid:93534 Worker[93534] process terminated
+2018-11-10 08:26:30 pid:93496 worker[local_client:93534] exit with status 64000
+2018-11-10 08:26:30 pid:93496 worker[local_client:93535] exit with status 64000
+2018-11-10 08:26:30 pid:93536 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:30 pid:93537 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:31 pid:93504 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 08:26:31 pid:93504 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 08:26:31 pid:93536 Worker[93536] process terminated
+2018-11-10 08:26:31 pid:93537 Worker[93537] process terminated
+2018-11-10 08:26:31 pid:93496 worker[local_client:93536] exit with status 64000
+2018-11-10 08:26:31 pid:93496 worker[local_client:93537] exit with status 64000
+2018-11-10 08:26:31 pid:93540 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:31 pid:93539 ParseError: syntax error, unexpected ')', expecting ']' in /Applications/MAMP/htdocs/simbizwebsocket/Applications/printclient/Events.php:57
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('Events')
+#1 [internal function]: spl_autoload_call('Events')
+#2 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(222): is_callable('Events::onWorke...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(2307): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#6 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#7 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#9 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#10 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#11 /Applications/MAMP/htdocs/simbizwebsocket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#12 /Applications/MAMP/htdocs/simbizwebsocket/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2018-11-10 08:26:32 pid:93504 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 08:26:32 pid:93504 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-11-10 08:26:32 pid:93539 Worker[93539] process terminated
+2018-11-10 08:26:32 pid:93540 Worker[93540] process terminated
+2018-11-10 08:26:32 pid:93496 worker[local_client:93540] exit with status 64000
+2018-11-10 08:26:32 pid:93496 worker[local_client:93539] exit with status 64000
+2018-11-10 08:26:33 pid:93496 Workerman[start.php] stopping ...
+2018-11-10 08:26:33 pid:93496 Workerman[start.php] has been stopped
+2018-11-10 08:26:33 pid:93543 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:30:17 pid:93543 Workerman[start.php] stopping ...
+2018-11-10 08:30:17 pid:93543 Workerman[start.php] has been stopped
+2018-11-10 08:30:18 pid:93732 Workerman[start.php] start in DEBUG mode
+2018-11-10 08:32:49 pid:93732 Workerman[start.php] stopping ...
+2018-11-10 08:32:49 pid:93732 Workerman[start.php] has been stopped
+2018-11-10 08:32:49 pid:93854 Workerman[start.php] start in DEBUG mode
