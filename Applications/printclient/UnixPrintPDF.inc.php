@@ -43,15 +43,15 @@ class UnixPrintPDF
 			$printername=" -d $printername";
 		}
 
-		if($options!='')
-		{
-			$options=' -o '.$options;
-		}
+		// if($options!='')
+		// {
+		// 	$options=' -o '.$options;
+		// }
 
 		$cmd="lp $options $printername $filename";
 		echo "\n".$cmd;
 
-		// shell_exec($cmd);
+		shell_exec($cmd);
 	}
 	private function downloadfile($url='')
 	{
