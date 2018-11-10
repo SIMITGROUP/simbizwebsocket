@@ -53,12 +53,19 @@
     	};
     var str=JSON.stringify(data);
     websocket.send(str);
-
+    /*
+    media=Custom.WIDTHxLENGTHmm, A4, Letter
+	orientation-requested=3 - portrait orientation (no rotation)
+	orientation-requested=4 - landscape orientation (90 degrees)
+	orientation-requested=5 - reverse landscape or seascape orientation (270 degrees)
+	orientation-requested=6 - reverse portrait or upside-down orientation (180 degrees)
+    */
 	var data=
     	{
     		data: message,
     		action: 'printpdf',    		
     		pdffileurl: 'http://www.pdf995.com/samples/pdf.pdf',
+    		options: '', //option under lp -o , example: media=Letter
     		printername:'TSC_TTP_244_Pro'
     	};
     var str=JSON.stringify(data);

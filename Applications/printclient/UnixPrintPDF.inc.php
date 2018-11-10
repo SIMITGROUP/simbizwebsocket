@@ -11,12 +11,12 @@ class UnixPrintPDF
 	{		
 	}
 
-	public function print($pdffileurl='',$printername='')
+	public function print($pdffileurl='',$printername='',$options)
 	{
 		echo "\nDownloading $pdffileurl...\n";		
 
 		$filename=$this->downloadfile($pdffileurl);
-		$this->sendPrintJob($filename,$printername);
+		$this->sendPrintJob($filename,$printername,$options);
 	}
 
 
@@ -28,21 +28,29 @@ class UnixPrintPDF
 		return $printerlist;
 
 	}
-	private function sendPrintJob($filename,$printername='')
+	private function sendPrintJob($filename,$printername='',$options='')
 	{
 
 		echo "\nPrint $filename ";		
 		if($printername=='')
 		{
-			echo "to Default Printer:";
-			$cmd=sprintf("lp %s",$filename);	
+			echo "to Default Printer:";			
+			$printername='';
 		}
 		else
 		{
-			echo "to $printername:";
-			$cmd=sprintf("lp -d %s %s",$printername,$filename);		
+			echo "to $printername:";			
+			$printername=" -d $printername";
 		}
-			echo "\n".$cmd;
+
+		if($options!='')
+		{
+			$options=' -o '.$options;
+		}
+
+		$cmd="lp $options $printername $filename";
+		echo "\n".$cmd;
+
 		// shell_exec($cmd);
 	}
 	private function downloadfile($url='')
