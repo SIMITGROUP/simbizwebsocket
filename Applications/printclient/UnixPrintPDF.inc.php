@@ -11,12 +11,12 @@ class UnixPrintPDF
 	{		
 	}
 
-	public function print($pdffileurl='',$printername='',$options)
+	public function print($pdffileurl='',$printername='',$options,$type='print')
 	{
 		echo "\nDownloading $pdffileurl...\n";		
 
 		$filename=$this->downloadfile($pdffileurl);
-		$this->sendPrintJob($filename,$printername,$options);
+		$this->sendPrintJob($filename,$printername,$options,$type);
 	}
 
 

@@ -64,7 +64,7 @@ class Events
             $actiontype=$result['actiontype'];
             $printer=new UnixPrintPDF();
             $txt=$printer->print($pdffileurl,$printername,$options,$actiontype);
-            Gateway::sendToClient($client_id, json_encode(['status'=>'OK','action'=>$action,'msg'=>$txt,'simulate'=>$simulate]));
+            Gateway::sendToClient($client_id, json_encode(['status'=>'OK','action'=>$action,'msg'=>$txt,'actiontype'=>$actiontype]));
           break;
           case 'printthermalprinter':
             
