@@ -97,7 +97,7 @@
   <button onclick="print('item.pdf')">1 page</button>
   <button onclick="print('tmpitem_2.pdf')">2 page</button>
   <button onclick="print('tmpitem_3.pdf')">3 page</button>
-  <label>Simulate only=0, Print=1 <input name="simulate" value="1"></label>
+  <label>Simulate only=0, Print=1 <input name="simulate" id="simulate" value="1"></label>
   <label>Printer <input name="printername" id="printername" value="TSC_TTP-244_Pro" ></label>
   
   <div id="output"></div>
