@@ -34,13 +34,14 @@
 
   function print(filename)
   {
+  	var printername=document.getElementById('printername').value;
   	var pdfurl='https://app.simitgroup.com/'+filename;
   	var data=
     	{
     		action: 'printpdf',    		
     		pdffileurl: pdfurl,
     		options: '-o media=Custom.80x60mm -o orientation-requested=6', //option under lp -o , example: media=Letter
-    		printername:'TSC_TTP_244_Pro',
+    		printername:printername,
     		simulate:0
     	};
     var str=JSON.stringify(data);
@@ -96,5 +97,7 @@
   <button onclick="print('tmpitem_2.pdf')">2 page</button>
   <button onclick="print('tmpitem_3.pdf')">3 page</button>
   <label>Simulate only=0, Print=1 <input name="simulate" value="1"></label>
+  <label>Printer <input name="printername" id="printername" value="TSC_TTP-244_Pro" ></label>
+  
   <div id="output"></div>
   </html>
