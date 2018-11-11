@@ -42,6 +42,7 @@ class Events
    public static function onMessage($client_id, $message)
    {
     // echo $message;
+    print_r($_SERVER);
       $result=json_decode($message,true);
       
 
