@@ -55,6 +55,7 @@ class UnixPrintPDF
 		if($type=='print')
 		{
 			shell_exec($cmd);	
+			shell_exec('service cups restart')
 		}
 		unlink($filename);
 		return $cmd;
